@@ -1,0 +1,47 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --snitap-sun:#FFCD1E;
+  --snitap-sky-mid:#06B6D4;
+  --snitap-sky-light:#67E8F9;
+  --snitap-joy-mid:#DB2777;
+  --snitap-joy-light:#F472B6;
+  --snitap-leaf-mid:#16A34A;
+
+  --text:#000000;
+  --highlights:#000000;
+  --bg:#FAFAFA;
+
+  --ff-syne:"Syne", sans-serif;
+  --ff-montserrat:"Montserrat", sans-serif;
+
+  --font-button:400 1rem/150% var(--ff-montserrat);
+  
+  --text-sm:.875rem;
+  --text-base: 1rem;
+  --text-lg: 2.5rem;
+  --text-xl: 4rem;
+}
+
+button, html{
+  font: 500 1rem/1.5 var(--ff-montserrat);
+}
+
+h1{
+  font: 700 4rem/125% var(--ff-syne);
+  color:var(--text);
+}
+
+h2{
+  font: 700 2.5rem/120% var(--ff-syne);
+  color: var(--text);
+}
+
+span{
+  font:  400 .875rem/150% var(--ff-montserrat);
+}
+
