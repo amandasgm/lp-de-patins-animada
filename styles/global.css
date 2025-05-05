@@ -42,6 +42,11 @@ h2{
 }
 
 span{
-  font:  400 .875rem/150% var(--ff-montserrat);
+  font:  600 .875rem/150% var(--ff-montserrat);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
