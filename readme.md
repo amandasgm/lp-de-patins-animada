@@ -1,8 +1,8 @@
-# Zingen
+# Snitap
 ### Projeto de estudo de animações e transições com CSS puro
 
 
-![Capa do projeto](assets/images/capa-readme.jpg)
+![Capa do projeto](assets/images/capa-readme.png)
 
 
 ### 🚀 Tecnologias
