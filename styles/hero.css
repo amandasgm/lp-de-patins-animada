@@ -108,7 +108,7 @@
     & img[src*="patins"]{
       z-index: 1;
 
-      transform: translateX(200%);
+      transform: translateX(200%); /* onde eu quero que a animacao chegue no futuro - no final dela*/
       animation: slideIn 3s ease forwards;
     }
     & img[src*="Stars 1"]{
@@ -136,7 +136,12 @@
 
 /* ANIMAÇÕES */
 
-/* divisao igualitaria entre os tempos de tela de cada palavra */
+/* - divisao igualitaria entre os tempos de tela de cada palavra
+   - toda animação tem um inicio e fim e definimos isso como pontos na linha do tempo que vao de 0% a 100% ou de from | to
+   - from | to - temos 1 ou 2 pontos na linha do tempo
+   - 0% a 100% - temos 1 ou mais pontos
+*/
+
 @keyframes slideUp{
   0%, 22%{
     transform: translateY(0);
@@ -162,7 +167,7 @@
 }
 
 @keyframes appear {
-  100%{
+  to{
     opacity:1;
   }
 }
