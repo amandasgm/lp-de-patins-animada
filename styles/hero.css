@@ -85,7 +85,6 @@
     max-width: 30.5rem;
     height: 30.5rem;
 
-    
 
     & .content {
       width: 100%;
@@ -169,6 +168,30 @@
 @keyframes appear {
   to{
     opacity:1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .hero {
+    flex-direction: column-reverse;
+
+    & h1, span {
+      max-width: 19.5rem;
+      font-size: 2rem;
+      margin-inline: auto;
+    }
+
+    & h1 div {
+      height: 2.5rem;
+    }
+
+    & .patins{
+      height: 25rem;
+    }
+
+    & .buttons{
+      flex-direction: column-reverse;
+    }
   }
 }
 

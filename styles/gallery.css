@@ -101,6 +101,13 @@ section.gallery {
       border-radius: 50%;
     }
   }
+
+  @media (width <= 430px){
+    .content{
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
 
 @keyframes image-appear {
@@ -109,3 +116,4 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+

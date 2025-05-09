@@ -2,7 +2,7 @@
 ### Projeto de estudo de animações e transições com CSS puro
 
 
-![Capa do projeto](assets/images/capa-readme.png)
+(assets/images/capa-readme.png)
 
 
 ### 🚀 Tecnologias
